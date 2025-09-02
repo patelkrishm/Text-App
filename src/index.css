@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+/* h1 {
+    font-size: 3.5rem;
+}
+
+button {
+    margin: 10px;
+    height: 70px;
+    width: 250px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: purple;
+} */
+
+textarea {
+    height: 300px;
+    width: 900px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 80%;
+    border-radius: 5px;
+}
+
+#btn {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 0px;
+}
+
+.list {
+    display: flex;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    margin-top: 0px;
+    text-align: 20px;
+    padding-top: 10px;
+}
+
+.box {
+    text-decoration: none;
+    margin-right: 180px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+
+/* Logo Styling */
+
+.navbar .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Navbar Links Styling */
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    color: #f1c40f;
+}
+
+
+/* Responsive Navbar for Smaller Screens */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links li {
+        margin: 10px 0;
+    }
+}
+
+.textform {
+    text-align: center;
+}
